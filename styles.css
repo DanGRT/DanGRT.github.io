@@ -1,0 +1,29 @@
+* {
+ box-sizing: inherit;
+ font-family: 'Lucida Console', Monaco, monospace;
+}
+
+body {
+ box-sizing: border-box;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+.content{
+  margin: 4rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
